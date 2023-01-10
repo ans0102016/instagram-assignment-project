@@ -1,0 +1,16 @@
+.userParameters__wrapper {
+    font-family: 'Proxima Nova';
+    display: inline-flex;
+    margin-top: -300px;
+    margin-left: 300px;
+}
+
+.userParameters__firstElement{
+    margin-left: 0px;
+    font-size: 18px;
+}
+
+.userParameters__element {
+    margin-left: 100px;
+    font-size: 18px;
+}

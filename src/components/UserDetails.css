@@ -1,0 +1,14 @@
+.userDetails__wrapper {
+    font-family: 'Proxima Nova';
+    margin-top: 20px;
+}
+
+.userDetails__info {
+    display: block;
+    margin-left: 300px;
+}
+
+.userDetails__link {
+    color: darkblue;
+    font-weight: bold;
+}

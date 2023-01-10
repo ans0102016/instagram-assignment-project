@@ -1,0 +1,65 @@
+.userInfo {
+    height: 250px;
+    width: 950px;
+    margin-left: 250px;
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+    align-items: center;
+}
+
+.userInfo__info {
+    display: flex;
+    align-items: center;
+}
+
+.userInfo__avatar {
+    margin-left: 75px;
+}
+
+.userInfo__username {
+    font-family: 'Proxima Nova';
+    display: flex;
+    margin-left: 75px;
+    font-weight: normal;
+    font-size: 24px;
+    align-items: center;
+}
+
+.userInfo__verifiedBadge {
+    margin-left: 10px;
+}
+
+.userInfo__button {
+    background-color: #EFEFEF;
+    color: black;
+    font-weight: 600;
+    font-size: medium;
+    border: none;
+    border-radius: 10px;
+    margin-left: 50px;
+    height: 40px;
+    width: 100px;
+}
+
+.userInfo__moreHorizon {
+    margin-left: 50px;
+}
+
+
+
+.userInfo_modalWrapper {
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.userInfo__modalElement {
+    padding: 30px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.userInfo__modalLastElement {
+    padding: 30px;
+}
+
