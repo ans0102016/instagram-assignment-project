@@ -15,11 +15,12 @@ const style = {
   width: 400,
   bgcolor: "background.paper",
   border: "2px solid #fff",
+  borderRadius: 5,
   boxShadow: 24,
   p: 4,
 };
 
-function UserSignup() {
+const UserSignup = () => {
   const [open, setOpen] = useState(true);
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
@@ -37,29 +38,29 @@ function UserSignup() {
     return () => {
       unsubscribe();
     };
-  }, []);
+  }, [user]);
 
-  function handleSignup(event) {
+  const handleSignup = (event) => {
     event.preventDefault();
     createUserWithEmailAndPassword(auth, email, password)
       .then(() => {
-        updateProfile(auth.currentUser, { displayName: username })
+        updateProfile(auth.currentUser, { displayName: username });
       })
       .catch((error) => alert(error.message));
-      setOpen(false);
-  }
+    setOpen(false);
+  };
   return (
     <div>
       <Modal open={open} onClose={() => setOpen(false)}>
         <Box sx={style}>
-          <form className="userLoggedOut__form">
-            <center>
-              <img
-                className="header__image"
-                src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
-                alt="Instagram Original Logo"
-              />
-            </center>
+          <center>
+            <img
+              className="userSignup__image"
+              src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
+              alt="Instagram Original Logo"
+            />
+          </center>
+          <form className="userLogin__form">
             <Input
               type="text"
               placeholder="username"
@@ -86,6 +87,6 @@ function UserSignup() {
       </Modal>
     </div>
   );
-}
+};
 
 export default UserSignup;

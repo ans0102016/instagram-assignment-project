@@ -3,9 +3,6 @@
 }
 
 .app {
-  display: flex;
-  flex-direction: column;
-  background-color: #fafafa;
-  width: 100%;
+  display: block;
   height: 100vh;
 }

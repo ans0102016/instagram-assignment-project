@@ -1,5 +1,7 @@
 .post__wrapper {
-    width: 100%;
-    background-color: #fafafa;
+    width: 950px;
+    margin-left: 5%;
+    background-color: white;
+    align-items: center;
 }
 

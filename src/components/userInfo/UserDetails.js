@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import './UserDetails.css';
+import "./UserDetails.css";
 
-function UserDetails() {
+const UserDetails = () => {
   return (
     <div className="userDetails__wrapper">
       <div className="userDetails__info">

@@ -4,7 +4,8 @@
     grid-row-gap: 10px;
     max-width: 500px;
     padding: 20px;
-    margin-left: 150px;
+    margin-left: 15%;
     background-color: #fff;
+    align-items: center;
 }
 

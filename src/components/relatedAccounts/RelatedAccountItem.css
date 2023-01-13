@@ -1,7 +1,71 @@
 .relatedAccountItem__wrapper {
+    display: block;
+    box-sizing: border-box;
+    width: 800px;
+    padding: 10px;
+}
+
+.relatedAccountItem__closeCard {
+    text-align: right;
+    padding: 5px;
+}
+
+.relatedAccountItem__closeCard button {
+    color: lightgray;
+    background-color: #fafafa;
+    border: 0px solid white;
+    cursor: pointer;
+}
+
+.relatedAccountItem__avatarWrapper {
     display: flex;
-    flex-direction: column;
-    width: 250px;
-    height: 300px;
+    padding-left: 40%;
+    align-items: center;
+}
+
+.relatedAccountItem__card {
+    width: 200px;
+    height: 200px;
     border: 1px solid gray;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.relatedAccountItem__cardContent {
+    align-items: center;
+}
+
+.relatedAccountItem__tagName {
+    display: flex;
+    padding-left: 25%;
+    text-align: center;
+}
+
+.relatedAccountItem__verifiedBadge {
+    margin-left: 10px;
+}
+
+.relatedAccountItem__name {
+    padding: 10px;
+    text-align: center;
+}
+
+.relatedAccountItem__buttonWrapper {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.relatedAccountItem__button {
+    background-color: #EFEFEF;
+    color: black;
+    font-weight: 600;
+    font-size: medium;
+    border: none;
+    border-radius: 10px;
+    margin-left: 50px;
+    height: 40px;
+    width: 100px;
 }

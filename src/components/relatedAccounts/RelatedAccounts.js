@@ -30,10 +30,15 @@ const RELATED_ACCOUNTS_DATA = [
   }
 ]
 
-function RelatedAccounts() {
+const RelatedAccounts = () => {
   return (
     <div className="relatedAccounts_wrapper">
-        <h4 className="relatedAccounts__header">Related Accounts</h4>
+        <div className="relatedAccounts__header">
+          <h4 className="relatedAccounts__title">Related Accounts</h4>
+          <div className="relatedAccounts__seeAllButtonWrapper">
+            <button className="relatedAccounts__seeAllButton">See All</button>
+          </div>
+        </div>
         <RelatedAccountsList relatedAccounts={RELATED_ACCOUNTS_DATA} />
     </div>
   )

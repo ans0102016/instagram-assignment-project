@@ -1,8 +1,11 @@
-.userInfo {
-    height: 250px;
-    width: 100%;
+.userInfo_wrapper {
+    box-sizing: border-box;
     border-bottom: 1px solid lightgray;
     padding: 20px;
+    align-items: center;
+    height: 300px;
+    width: 950px;
+    margin-left: 15%;
     align-items: center;
 }
 
@@ -16,7 +19,7 @@
 }
 
 .userInfo__username {
-    font-family: 'Proxima Nova';
+    font-family: "Proxima Nova";
     display: flex;
     margin-left: 75px;
     font-weight: normal;

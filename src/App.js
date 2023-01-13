@@ -8,7 +8,7 @@ import RelatedAccounts from './components/relatedAccounts/RelatedAccounts';
 
 function App() {
   return (
-    <div className="app">
+    <div className='app'>
       <Header />
       <UserInfo />
       <Options />

@@ -1,12 +1,47 @@
 .relatedAccounts_wrapper {
     display: flex;
+    position: relative;
     flex-direction: column;
-    width: 100%;
+    box-sizing: border-box;
     background-color: #fafafa;
+    align-items: center;
+    margin-left: 15%;
+    width: 950px;
+    border-color: 1px solid lightgray;
 }
 
 .relatedAccounts__header {
+    display: flex;
+    flex-direction: row;
     color: gray;
+    box-sizing: border-box;
     font-weight: bolder;
-    margin-left: 150px;
+    padding: 10px;
 }
+
+.relatedAccounts__title {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.relatedAccounts__seeAllButtonWrapper {
+    right: 10px;
+    position: absolute;
+}
+
+.relatedAccounts__seeAllButton {
+    font-family: "Proxima Nova";
+    background-color: #fafafa;
+    border: none;
+    color: #33a1ff;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+    cursor: pointer;
+  }
+  
+  .relatedAccounts__seeAllButton:hover {
+      color: #33a0ffc1;
+  }

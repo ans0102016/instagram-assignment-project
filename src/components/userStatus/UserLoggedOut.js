@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
 import "./UserLoggedOut.css";
-import UserLogIn from "./userAuthentication/UserLogin";
-import UserSignup from "./userAuthentication/UserSignup";
+import UserLogIn from "../userAuthentication/UserLogin";
+import UserSignup from "../userAuthentication/UserSignup";
 
-function UserLoggedOut() {
+const UserLoggedOut = () => {
   const [active, setActive] = useState("");
   return (
     <div className="userLoggedOut_wrapper">

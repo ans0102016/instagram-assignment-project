@@ -5,7 +5,7 @@ import tagged from "../images/tag.png";
 
 import "./Options.css";
 
-function Options() {
+const Options = () => {
   return (
     <div className="options__wrapper">
       <div className="options__items" active="true">

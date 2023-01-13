@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import './UserParameters.css';
+import "./UserParameters.css";
 
-function UserParameters() {
+const UserParameters = () => {
   return (
     <div className="userParameters__wrapper">
       <div className="userParameters__firstElement">

@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
 import RelatedAccountItem from "./RelatedAccountItem";
 
 import "./RelatedAccountsList.css";
 
-function RelatedAccountsList(props) {
+const RelatedAccountsList = (props) => {
   return (
     <div className="relatedAccountsList__wrapper">
       {props.relatedAccounts.map((relatedAccount) => (

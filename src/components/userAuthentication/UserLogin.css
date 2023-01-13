@@ -3,6 +3,12 @@
     margin-left: 100px;
 }
 
+.userLogin__image {
+  background-color: white;
+  margin-top: 10px;
+  object-fit: contain;
+}
+
 .userLogin__form {
     display: flex;
     flex-direction: column;
