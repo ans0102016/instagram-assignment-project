@@ -1,6 +1,8 @@
 .header__wrapper {
   display: flex;
   top: 0;
+  width: 100%;
+  padding: 10px;
   border-bottom: 1px solid lightgray;
   background-color: white;
   position: sticky;
@@ -11,13 +13,13 @@
 
 .header__image {
   background-color: white;
-  padding: 20px;
+  margin-top: 10px;
   object-fit: contain;
 }
 
-.header__headerWrapper {
+.header__userInfoWrapper {
+  width: 100%;
   margin: 0;
-  max-width: 900px;
   padding: 0 75px;
   align-items: center;
   display: flex;
@@ -27,7 +29,7 @@
 .header__search input {
   font-family: 'Proxima Nova';
   text-indent: -175px;
-  margin-left: 375px;
+  align-items: center;
   border: 1px solid transparent;
   border-radius: inherit;
   background: transparent
@@ -40,56 +42,16 @@
   border: 0px;
   height: 45px;
   width: 300px;
-  padding: 10px;
+  padding: 20px 10px 20px 10px;
   font-size: 16px;
   font-weight: lighter;
   text-align: center;
 }
 
-.header__buttons {
+.userLoggedOut__buttons {
   display: flex;
   column-gap: 15px;
   text-align: center;
   align-items: center;
   margin-left: 200px;
-}
-
-.header__loginButton {
-  font-family: 'Proxima Nova';
-  display: inline-block;
-  background-color: #33a1ff;
-  height: 35px;
-  width: 70px;
-  border-radius: 10px;
-  border: 1px solid transparent;
-  align-items: center;
-  text-align: center;
-  font-weight: bold;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.header__loginButton:hover {
-    background-color: rgba(5, 5, 246, 0.711);
-}
-
-.header__signupButton {
-  font-family: 'Proxima Nova';
-  display: block;
-  background-color: white;
-  width: 100px;
-  margin-left: -10px;
-  border: none;
-  color: #33a1ff;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  font-weight: bold;
-  font-size: medium;
-  cursor: pointer;
-}
-
-.header__signupButton:hover {
-    color: #33a0ffc1;
 }

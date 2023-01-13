@@ -1,15 +1,19 @@
 import Header from './components/Header';
-import Post from './components/Post';
-import UserInfo from './components/UserInfo';
+import Post from './components/posts/Post';
+import UserInfo from './components/userInfo/UserInfo';
+import Options from './components/Options';
 
-import stylingClass from './App.css';
+import './App.css';
+import RelatedAccounts from './components/relatedAccounts/RelatedAccounts';
 
 function App() {
   return (
-    <div className={stylingClass.app}>
+    <div className="app">
       <Header />
       <UserInfo />
+      <Options />
       <Post />
+      <RelatedAccounts />
     </div>
   );
 }

@@ -1,7 +1,6 @@
 .userInfo {
     height: 250px;
-    width: 950px;
-    margin-left: 250px;
+    width: 100%;
     border-bottom: 1px solid lightgray;
     padding: 20px;
     align-items: center;

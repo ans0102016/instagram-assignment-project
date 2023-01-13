@@ -1,0 +1,56 @@
+.userLoggedOut_wrapper {
+  display: flex;
+  width: 100%;
+  margin-left: 100px;
+  align-items: center;
+  padding: 10px;
+}
+
+.userLoggedOut__buttons {
+    display: flex;
+    position: relative;
+    column-gap: 35px;
+    margin-left: 500px;
+  }
+  
+  .userLoggedOut__loginButton {
+    font-family: 'Proxima Nova';
+    background-color: #33a1ff;
+    height: 35px;
+    width: 70px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .userLoggedOut__loginButton:hover {
+      background-color: rgba(5, 5, 246, 0.711);
+  }
+  
+  .userLoggedOut__signupButton {
+    font-family: 'Proxima Nova';
+    background-color: white;
+    width: 100px;
+    margin-left: 10px;
+    border: none;
+    color: #33a1ff;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+  }
+  
+  .userLoggedOut__signupButton:hover {
+      color: #33a0ffc1;
+  }
+  
+  .userLoggedOut__form {
+    display: flex;
+    flex-direction: column;
+  }
