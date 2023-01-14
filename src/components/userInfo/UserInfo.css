@@ -19,7 +19,6 @@
 }
 
 .userInfo__username {
-    font-family: "Proxima Nova";
     display: flex;
     margin-left: 75px;
     font-weight: normal;
@@ -46,8 +45,6 @@
 .userInfo__moreHorizon {
     margin-left: 50px;
 }
-
-
 
 .userInfo_modalWrapper {
     align-items: center;

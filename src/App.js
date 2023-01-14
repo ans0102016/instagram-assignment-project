@@ -1,14 +1,14 @@
-import Header from './components/Header';
-import Post from './components/posts/Post';
-import UserInfo from './components/userInfo/UserInfo';
-import Options from './components/Options';
+import Header from "./components/Header";
+import Post from "./components/posts/Post";
+import UserInfo from "./components/userInfo/UserInfo";
+import Options from "./components/Options";
+import RelatedAccounts from "./components/relatedAccounts/RelatedAccounts";
 
-import './App.css';
-import RelatedAccounts from './components/relatedAccounts/RelatedAccounts';
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className='app'>
+    <div className="app">
       <Header />
       <UserInfo />
       <Options />

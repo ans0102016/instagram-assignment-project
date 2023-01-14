@@ -14,7 +14,6 @@
   }
   
   .userLoggedOut__loginButton {
-    font-family: 'Proxima Nova';
     background-color: #33a1ff;
     height: 35px;
     width: 70px;
@@ -33,7 +32,6 @@
   }
   
   .userLoggedOut__signupButton {
-    font-family: 'Proxima Nova';
     background-color: white;
     width: 100px;
     margin-left: 10px;

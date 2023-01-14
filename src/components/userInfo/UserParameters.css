@@ -1,5 +1,4 @@
 .userParameters__wrapper {
-    font-family: "Proxima Nova";
     box-sizing: border-box;
     display: inline-flex;
     margin-top: -300px;
@@ -8,13 +7,11 @@
 }
 
 .userParameters__firstElement{
-    font-family: "Proxima Nova";
     margin-left: 0px;
     font-size: 18px;
 }
 
 .userParameters__element {
-    font-family: "Proxima Nova";
     margin-left: 100px;
     font-size: 18px;
 }

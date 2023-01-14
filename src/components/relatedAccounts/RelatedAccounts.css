@@ -21,8 +21,8 @@
 
 .relatedAccounts__title {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 2px;
+    left: 2px;
 }
 
 .relatedAccounts__seeAllButtonWrapper {
@@ -31,7 +31,6 @@
 }
 
 .relatedAccounts__seeAllButton {
-    font-family: "Proxima Nova";
     background-color: #fafafa;
     border: none;
     color: #33a1ff;
